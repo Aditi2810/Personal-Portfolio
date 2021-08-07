@@ -1,0 +1,373 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+.topnav
+{
+    overflow:hidden;
+    background-color:#000000;
+}
+.topnav h2
+{
+    position:absolute;
+    left:40px;
+    float:left;
+    margin:0;
+    font-family: 'Permanent Marker', cursive;
+    color:#5094e2;
+}
+.topnav a
+{
+    float:right;
+    color:#FFFFFF;
+    text-align: center;
+    padding:14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.topnav a:hover
+{
+  
+    background: linear-gradient(to left, #cc99ff 0%, #ffccff 98%);
+    color:black;
+}
+.topnav a.active
+{
+    
+    background: linear-gradient(to left, #cc99ff 0%, #ffccff 98%);
+    color:white;
+}
+.design
+{
+    width:100%;
+    background-image: url("bg1.gif"); 
+    background-size:contain;
+    height:100vh;
+    position:relative;
+}
+.intro
+{
+    color:white;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.intro h3
+{
+    color: #cc005f;
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    font-size:25px;
+    margin:0;
+    font-weight: bold;
+}
+.intro h1
+{
+    width:0ch;
+    overflow:hidden;
+    white-space: nowrap;
+    animation: animate 6s steps(17) infinite;
+    border-right:3px solid #FFFFFF;
+    font-size: 40px;
+    margin-left:6%;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        width:0ch;
+    }
+    50%
+    {
+        width:17ch;
+    }
+}
+.intro p
+{
+    WIDTH: max-content;
+    text-align: center;
+    font-family: ;
+    letter-spacing: 1px;
+}
+.intro a
+{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    border:2px solid #FFFFFF;
+    padding:20px;
+    position:fixed;
+    left:30%;
+}
+.intro a:hover
+{
+    border:2px solid #cc005f;
+}
+
+.fab
+{
+    padding:20px;
+    text-decoration: none;
+    text-align:center;
+    color:#FFFFFF;
+}
+.fab:hover
+{
+    color:#cc005f;
+}
+.icon
+{
+    position:absolute;
+    top:80%;
+    left:40%;
+}
+
+/*Section 2
+============================*/
+#about
+{
+    background-color: #FFFFFF;
+    text-align:center;
+    padding-top:5%;
+}
+.format h5
+{
+    color:#cc005f;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    margin:0;
+}
+.format h2
+{
+    color:black;
+    font-size: 30px;
+    font-family: ;
+}
+.profile-img
+{
+    background-image: url("Profile.jpeg");
+    width:200px;
+    height:200px;
+    border-radius:180px;
+    margin-left: 20%;
+    float:left;
+}
+
+.container
+{
+    /* background-color: aquamarine; */
+    width:550px;
+    height:150px;
+    margin-left:40%;
+    padding:30px;
+    font-style: italic;
+    font-size: 22px;
+}
+* {box-sizing: border-box}
+
+.bar {
+  width: 45%;
+  background-color: #ddd;
+  margin-left:600px;
+  border-radius:50px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius:50px;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+.text
+{
+    margin-top:100px;
+}
+.text p
+{
+    text-align:right;
+    padding-right:150px;
+}
+.text h1
+{
+
+    position:relative;
+    left:90px;
+    top:100px;
+    text-align: left;
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    float:left;
+    margin:0;
+    font-size:50px;
+    transition: 3s;
+}
+.text h1:hover
+{
+    font-size:70px;
+    color:#e5f136dc;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 100px;
+    cursor: pointer;
+    font-family:"poppins", sans-serif;
+  }
+.b1
+{
+    color:black;
+    border:2px solid #000000;
+    letter-spacing: 2px;
+}
+.b2
+{
+    color:#FFFFFF;
+    background-color: #000000;
+}
+
+/*Section 3
+============================*/
+.resume
+{
+    background-color:grey;
+    text-align:center;
+    padding-top:5%;
+}
+
+.resume-design
+{
+    width:850px;
+    height:800px;
+    background-color: aqua;
+    margin:auto;
+}
+
+.vl
+{
+    border-left:2px solid red;
+    height:700px;
+    position:relative;
+    left:40%;
+    top:100px;
+}
+
+/*Section 3
+============================*/
+#contact
+{
+    background-color:#000000;
+    text-align:center;
+    padding-top:5%;
+}
+.box
+{
+    text-align: center;
+    width:700px;
+    height:100px;
+    margin:auto;
+    padding:20px;
+}
+#contact h5
+{
+    color:#cc005f;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
+    margin:0;
+}
+#contact h2
+{
+    color:#FFFFFF;
+    font-size: 30px;
+    font-family:"poppins", sans-serif;
+    margin-bottom: 20px;
+}
+#contact p
+{
+    font-style:italic;
+    font-size: 20px;
+    color:white;
+}
+input[type=text],input[type=email]
+{
+    width:80%;
+    padding:10px 20px;
+    border:none;
+    border-bottom:2px solid rgb(161, 157, 157);
+    text-decoration: none;
+    color:rgb(161, 157, 157);
+    background-color: #000000;
+    margin:10px;
+    cursor:pointer;
+    font-size: 15px;
+}
+input[type="textarea"]
+{
+    width:80%;
+    height:150px;
+    padding:12px,20px;
+    border-bottom:2px solid rgb(161, 157, 157);
+    resize:none;
+    border:none;
+    color:rgb(161, 157, 157);
+    background-color: #000000;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+input[type="submit"]
+{
+    width:85%;
+    background-color: #cc005f;
+    border:none;
+    color:#FFFFFF;
+    padding:16px 32px;
+    text-decoration: none;
+    margin-top:20px;
+   
+    cursor:pointer;
+
+}
+input[type=text]:hover,input[type=email]:hover,input[type=textarea]:hover
+{
+    border-bottom:2px solid #cc005f;
+}
+
+.input-container
+{
+    width:800px;
+    height:500px;
+    padding-bottom:30px;
+    position:relative;
+    left:20%;
+    margin-top: 5%;
+ }
+footer
+{
+    position:relative;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align: right;
+    background-color: #b3a9a9;
+    font-family: 'Permanent Marker', cursive;
+    padding:12px;
+    letter-spacing: 1px;
+}

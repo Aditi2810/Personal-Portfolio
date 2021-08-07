@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+	
+	<!-- Google font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!--Icon Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <h2>PORTFOLIO</h2>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a class="active" href="#">Home</a>
+        </div>
+    </header>
+    <section class="design">
+        <div class="intro">
+            <h3>Hello, World.</h3>
+            <h1>I'm Aditi Tibrewal.</h1>
+            <p>| FRONTEND DEVELOPER | UI/UX DESIGNER | </p>
+            <a href="#about">MORE ABOUT ME </a>
+        </div>
+        <div class="icon">
+            <a href="https://www.linkedin.com/in/aditi-tibrewal/" class="fab fa-linkedin fa-2x"></a>
+            <a href="#" class="fab fa-facebook fa-2x"></a>
+            <a href="#" class="fab fa-instagram fa-2x"></a>
+            <a href="https://join.skype.com/invite/xZbTubYBdphY" class="fab fa-skype fa-2x"></a>
+        </div>
+    </section>
+
+    <!-- About
+    =============================-->
+    <section id="about">
+        <div class="format">
+            <h5>ABOUT</h5>
+            <h2> Let me introduce myself.</h2>
+            <img src="Profile.jpeg" class="profile-img">
+            <p class="container">Hi, I am Aditi - an enthusiast Front-End Developer from Kolkata, West Bengal. My expertise is in the area of responsive design. With every line of code, I strive to make the web a beautiful place.                
+            </p>
+        </div>
+
+        <div class="text">
+        <h1>TECHNICAL<br>SKILLS</h1>
+        <p><strong>HTML</strong></p>
+        <div class="bar">
+          <div class="skills html">90%</div>
+        </div>
+        
+        <p><b>CSS</b></p>
+        <div class="bar">
+          <div class="skills css">80%</div>
+        </div>
+        
+        <p><strong>Java</strong></p>
+        <div class="bar">
+          <div class="skills js">65%</div>
+        </div>
+        
+        <p><strong>MySQL</strong></p>
+        <div class="bar">
+          <div class="skills php">60%</div>
+        </div>
+    </div>
+        
+            <a href="#contact" class=" button b1">HIRE ME</a>
+            <a href="Resume.pdf" download class="button b2">DOWNLOAD CV</a>
+        
+    </section>
+
+<!--Contact
+#############################-->
+
+    <section id="contact">
+        <div>
+            <h5>CONTACT</h5>
+            <h2>I'D LOVE TO HEAR FROM YOU</h2>
+            <p class="box">I like to create things with fun,meet open-minded people. Feel free to say hello!!</p>
+        </div>
+        <div class=input-container>
+            <form action="mail.php" method="post">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <input type="text" placeholder="Subject" name="subject" required>
+                <input type="textarea" placeholder="Message" rows ="5" cols="5" name=message required>
+                <input type="submit" value="SUBMIT" name="esubmit">
+            </form>
+        </div>
+       
+    </section>
+    <footer>
+        <p>Author: Aditi Tibrewal.</p>
+    </footer>
+</body>
+</html>

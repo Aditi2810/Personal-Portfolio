@@ -1,0 +1,78 @@
+/* For mobile phones
+---------------------*/
+@media(max-width:768px)
+{
+
+/* Section 3 */
+
+.box
+{
+    width:500px;
+    margin-left: -2%;
+}
+.input-container
+{
+
+    width: 450px;
+    left: 10px;
+}
+
+/* Section 2 */
+
+.profile-img
+{
+    margin-left: auto;
+    float:none;
+}
+.container
+{
+    margin-left: auto;
+    width:auto;
+}
+.text h1
+{
+    top: -50px;
+    left: 55px;
+}
+.text p
+{
+    text-align: left;
+    margin-left: 10%;
+}
+.bar
+{
+    margin-left: 40px;
+    width: 80%;
+}
+.button
+{
+    margin:40px 40px;
+}
+
+/* Section 1 */
+
+.icon
+{
+    left:20%;
+}
+.topnav h2
+{
+    left:10px;
+    margin-left: 8px;
+}
+.topnav a
+{
+    padding:14px 10px;
+}
+.intro h1
+{
+    font-size: 35px;
+    margin-left: 10%;
+    font-size:none;
+}
+.intro a
+{
+    left:25%;
+}
+
+}
